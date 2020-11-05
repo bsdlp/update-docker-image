@@ -1,6 +1,6 @@
 syntax = "proto3";
 package twitch.twirp.example.helloworld;
-option go_package = ".;update_docker_image";
+option go_package = "update_docker_image";
 import "google/protobuf/empty.proto";
 
 service UpdateDockerImage {
